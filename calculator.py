@@ -15,6 +15,11 @@ class Calculator:
     def mul(a: int, b: int) -> int:
         """掛け算を行う関数"""
         return a * b
+    
+    @staticmethod
+    def div(a: int, b: int) -> float:
+        """割り算を行う関数"""
+        return a / b
 
 if __name__ == "__main__":
     """テストコード"""
@@ -24,3 +29,4 @@ if __name__ == "__main__":
     print(Calculator.add(numa, numb))
     print(Calculator.sub(numa, numb))
     print(Calculator.mul(numa, numb))
+    print(Calculator.div(numa, numb))
